@@ -54,7 +54,7 @@ sudo service nginx restart
 
 # Configure PHP-FPM
 sudo sed -i.bak 's/^memory_limit.*/memory_limit = 512M/' /etc/php5/fpm/php.ini
-sudo servce php5-fpm restart
+sudo service php5-fpm restart
 
 # Install Drupal site
 cd drupal
